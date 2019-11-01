@@ -76,6 +76,12 @@ Knowledge base about glorious new android ui framework in the form of simple FAQ
 
 ---
 
+## 🤔 How do I access vector assets in composables?
+
+☝️ Vector assets can be acquired with `val vector = +vectorResource(vectorResourceId)`
+
+---
+
 ## 🤔 During composition, there is static variable `currentComposer` maybe better was to make Composables extension functions on top of this Composer context?
 
 ☝️ This is a temporary decision. In the future releases there would be multiple composition roots, each hierarchy would have one. As of extensions, there is only one receiver possible for Kotlin extension functions, so it would be a major drawback to fill that spot by a framework.

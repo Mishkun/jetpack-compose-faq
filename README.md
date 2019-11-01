@@ -82,6 +82,19 @@ Knowledge base about glorious new android ui framework in the form of simple FAQ
 
 ---
 
+## 🤔 How do I manage component state?
+
+☝ Although it is strongly recommended to design your composable is such way that they are pure and depend only on their arguments, sometimes you need to have state somewhere.
+This can be achieved by using `+state(initial)` effect. This will give you a nice place to store and update your immutable state.
+
+---
+
+## 🤔 What does `@Model` annotation do?
+
+☝ Apart from `+state` effect there is another way to handle state in a more imperative way as a mutable data class. Just annotate your class with `@Model` and all mutable properties referenced in composition context will create a binding which will trigger recomposition of referencing chunk of UI.
+
+---
+
 ## 🤔 During composition, there is static variable `currentComposer` maybe better was to make Composables extension functions on top of this Composer context?
 
 ☝️ This is a temporary decision. In the future releases there would be multiple composition roots, each hierarchy would have one. As of extensions, there is only one receiver possible for Kotlin extension functions, so it would be a major drawback to fill that spot by a framework.

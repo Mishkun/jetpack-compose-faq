@@ -64,6 +64,18 @@ Knowledge base about glorious new android ui framework in the form of simple FAQ
 
 ---
 
+## 🤔 Does Jetpack Compose support Android Studio Layout Preview?
+
+☝️ Currently it does not support Layout Preview. But you can use `@Preview` annotation on your composable function without parameters to get a basic live preview of your composable to see it in action.
+
+---
+
+## 🤔 Does JC work with Constraint Layout?
+
+☝️ Currently it does not support Constraint Layout. But it will change in the future.
+
+---
+
 ## 🤔 How do I make list widget, like RecyclerView?
 
 ☝️ Compose doesn't have one that is as effective as RecyclerView can be, but for toy projects you can use just a `VerticalScroller` with a `Column` inside it.

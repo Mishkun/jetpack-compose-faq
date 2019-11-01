@@ -78,7 +78,7 @@ Knowledge base about glorious new android ui framework in the form of simple FAQ
 
 ## 🤔 How do I access vector assets in composables?
 
-☝️ Vector assets can be aquired with `val vector = +vectorResource(vectorResourceId)`
+☝️ Vector assets can be acquired with `val vector = +vectorResource(vectorResourceId)`
 
 ---
 

@@ -79,3 +79,17 @@ Knowledge base about glorious new android ui framework in the form of simple FAQ
 ## 🤔 During composition, there is static variable `currentComposer` maybe better was to make Composables extension functions on top of this Composer context?
 
 ☝️ This is a temporary decision. In the future releases there would be multiple composition roots, each hierarchy would have one. As of extensions, there is only one receiver possible for Kotlin extension functions, so it would be a major drawback to fill that spot by a framework.
+
+---
+
+## 🤔 I found a bug where to submit it?
+
+☝️ Post an issue in this [tracker](https://issuetracker.google.com/issues?q=componentid:612128)
+
+---
+
+## 🤔 I did not find answer for my question here, what can I do?
+
+☝️ Join [Kotlin Slack community](Slack) and find a `#compose` channel there. Feel free to ask for any help!
+
+If you speak Russian, you also might be interested in joining [telegram community](https://t.me/android_declarative) dedicated to Declarative UI on Android.
